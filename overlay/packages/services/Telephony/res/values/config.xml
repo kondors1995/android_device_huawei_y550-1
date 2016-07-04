@@ -42,4 +42,7 @@
          ignored and manual operator selection will always be available. See
          CPHS4_2.WW6, CPHS B.4.7.1 for more information -->
     <bool name="csp_enabled">true</bool>
+
+    <!-- Flag indicating if the speed up audio on mt call code should be executed -->
+    <bool name="config_speed_up_audio_on_mt_calls">true</bool>
 </resources>
