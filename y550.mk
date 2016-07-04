@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/huawei/g620s/g620s-vendor.mk)
+$(call inherit-product, vendor/huawei/y550/y550-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -22,13 +22,13 @@ DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
 # Audio calibration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/Bluetooth_cal.acdb:system/etc/sound_param/g620s_l01l02/Bluetooth_cal.acdb \
-    $(LOCAL_PATH)/audio/General_cal.acdb:system/etc/sound_param/g620s_l01l02/General_cal.acdb \
-    $(LOCAL_PATH)/audio/Global_cal.acdb:system/etc/sound_param/g620s_l01l02/Global_cal.acdb \
-    $(LOCAL_PATH)/audio/Handset_cal.acdb:system/etc/sound_param/g620s_l01l02/Handset_cal.acdb \
-    $(LOCAL_PATH)/audio/Hdmi_cal.acdb:system/etc/sound_param/g620s_l01l02/Hdmi_cal.acdb \
-    $(LOCAL_PATH)/audio/Headset_cal.acdb:system/etc/sound_param/g620s_l01l02/Headset_cal.acdb \
-    $(LOCAL_PATH)/audio/Speaker_cal.acdb:system/etc/sound_param/g620s_l01l02/Speaker_cal.acdb
+    $(LOCAL_PATH)/audio/Bluetooth_cal.acdb:system/etc/sound_param/y550_l01l02l03/Bluetooth_cal.acdb \
+    $(LOCAL_PATH)/audio/General_cal.acdb:system/etc/sound_param/y550_l01l02l03/General_cal.acdb \
+    $(LOCAL_PATH)/audio/Global_cal.acdb:system/etc/sound_param/y550_l01l02l03/Global_cal.acdb \
+    $(LOCAL_PATH)/audio/Handset_cal.acdb:system/etc/sound_param/y550_l01l02l03/Handset_cal.acdb \
+    $(LOCAL_PATH)/audio/Hdmi_cal.acdb:system/etc/sound_param/y550_l01l02l03/Hdmi_cal.acdb \
+    $(LOCAL_PATH)/audio/Headset_cal.acdb:system/etc/sound_param/y550_l01l02l03/Headset_cal.acdb \
+    $(LOCAL_PATH)/audio/Speaker_cal.acdb:system/etc/sound_param/y550_l01l02l03/Speaker_cal.acdb
 
 # media_profiles and media_codecs xmls for 8916
 PRODUCT_COPY_FILES += \
