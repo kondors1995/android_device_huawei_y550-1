@@ -268,4 +268,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.io.scheduler=bfq
 
+
+#PRODUCT_COPY_FILES from vendor blobs, workaround
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/spn-conf.xml:system/etc/spn-conf.xml
+
+
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
