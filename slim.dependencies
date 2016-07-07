@@ -1,0 +1,7 @@
+[
+ {
+   "repository":  "Hacker432-Y550/android_device_huawei_y550",
+   "target_path": "kernel/huawei/msm8916",
+   "branch":      "Y550"
+ }
+]
